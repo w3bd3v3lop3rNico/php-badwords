@@ -7,7 +7,8 @@
 </head>
 <body>
     <form method="POST" action="./form.php">
-        <input type="text" name="replace_word">
+        <input type="text" placeholder="inserire testo" name="text">
+        <input type="text" placeholder="parola da censurare" name="replace_word">
         <button type="submit">Invia form</button>
     </form>
 </body>

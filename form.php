@@ -1,5 +1,5 @@
 <?php
-$text = "L'innovazione è fondamentale nel mondo moderno. Senza innovazione, la stagnazione prevale. Le aziende prosperano grazie all'innovazione costante. Le menti creative alimentano l'innovazione. Senza l'innovazione, il progresso diventa difficile.";
+$text = $_POST['text'];
 
 $bad_word = $_POST['replace_word'];
 ?>
